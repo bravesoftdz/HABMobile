@@ -1,0 +1,79 @@
+inherited frmSources: TfrmSources
+  Caption = 'frmBase1'
+  OnCreate = FormCreate
+  DesignerMasterStyle = 0
+  inherited pnlMain: TPanel
+    object ListBox1: TListBox
+      Align = Client
+      Size.Width = 700.000000000000000000
+      Size.Height = 387.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'LCARSListBoxStyle'
+      TabOrder = 0
+      AlternatingRowBackground = True
+      DisableFocusEffect = True
+      DefaultItemStyles.ItemStyle = 'lCARSListBoxItemStyle'
+      DefaultItemStyles.GroupHeaderStyle = ''
+      DefaultItemStyles.GroupFooterStyle = ''
+      Viewport.Width = 696.000000000000000000
+      Viewport.Height = 383.000000000000000000
+      object ListBoxItem1: TListBoxItem
+        TextSettings.Font.Family = 'Swiss911 UCm BT'
+        TextSettings.Font.Size = 24.000000000000000000
+        TextSettings.FontColor = claAqua
+        StyledSettings = [Style, Other]
+        Size.Width = 696.000000000000000000
+        Size.Height = 32.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        Text = '$$ SOMETHING'
+      end
+      object ListBoxItem2: TListBoxItem
+        TextSettings.Font.Family = 'Swiss911 UCm BT'
+        TextSettings.Font.Size = 24.000000000000000000
+        TextSettings.FontColor = claYellow
+        StyledSettings = [Style, Other]
+        Position.Y = 32.000000000000000000
+        Size.Width = 696.000000000000000000
+        Size.Height = 32.000000000000000000
+        Size.PlatformDefault = False
+        StyleLookup = 'lCARSListBoxItemStyle'
+        TabOrder = 1
+        Text = '$$ SOMETHING ELSE'
+      end
+    end
+    object Layout1: TLayout
+      Align = Top
+      Margins.Bottom = 4.000000000000000000
+      Size.Width = 700.000000000000000000
+      Size.Height = 33.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 1
+      object Button2: TButton
+        Align = Left
+        StyledSettings = [Family, Style, FontColor, Other]
+        Margins.Right = 4.000000000000000000
+        Size.Width = 96.000000000000000000
+        Size.Height = 33.000000000000000000
+        Size.PlatformDefault = False
+        StyleLookup = 'LCARSTabButtonStyle'
+        TabOrder = 2
+        Text = 'RTTY'
+        TextSettings.Font.Size = 32.000000000000000000
+      end
+      object Button1: TButton
+        Align = Left
+        StyledSettings = [Family, Style, FontColor, Other]
+        Margins.Right = 4.000000000000000000
+        Position.X = 100.000000000000000000
+        Size.Width = 96.000000000000000000
+        Size.Height = 33.000000000000000000
+        Size.PlatformDefault = False
+        StyleLookup = 'LCARSTabButtonStyle'
+        TabOrder = 1
+        Text = 'LoRa'
+        TextSettings.Font.Size = 32.000000000000000000
+      end
+    end
+  end
+end
