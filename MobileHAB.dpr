@@ -5,7 +5,6 @@ uses
   FMX.Forms,
   Main in 'Main.pas' {frmMain},
   DLFlDigiSource in 'HABRx\DLFlDigiSource.pas',
-  DummySource in 'HABRx\DummySource.pas',
   HABDB in 'HABRx\HABDB.pas',
   HabitatSource in 'HABRx\HabitatSource.pas',
   Source in 'HABRx\Source.pas',

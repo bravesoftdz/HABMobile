@@ -10,7 +10,7 @@ type
   private
     { Private declarations }
     AClient: TIdTCPClient;
-    Line: AnsiString;
+    Line: String;
     PreviousLines: Array[0..1] of String;
   protected
     { Protected declarations }

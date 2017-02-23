@@ -39,7 +39,8 @@ begin
 
     Settings := TSettings.Create;
     Settings.Add('SourceName', 'LoRa Gateway');
-    Settings.Add('Host', 'LoRaGW5');
+    Settings.Add('Host', '192.168.1.13');
+    // Settings.Add('Host', 'loragw5.local');
     Settings.Add('Port', 6004);
     GatewaySource := TGatewaySource.Create(0, GatewayCallback, Settings);
 end;
